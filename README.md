@@ -8,6 +8,7 @@ Dense Block 내에서는 ResNet과 같이 Pre-Activation 구조 (BN-ReLU-Conv)�
 Dense Block
 --------------
 ![캡처2](https://user-images.githubusercontent.com/74402562/103472759-b7622480-4dd4-11eb-98be-20c474a61d5c.PNG)
+
 ![캡처5](https://user-images.githubusercontent.com/74402562/103473127-66ecc600-4dd8-11eb-9173-c7334a8cec4f.PNG)
 
 ResNet은 이전 특징 맵을 합하는 것이라면 DenseNet은 이전 특징 맵에 누적해서 Concatenate하는 결과와 같다.
