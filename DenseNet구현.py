@@ -182,7 +182,7 @@ plt.show()
 torch.save(model_Dense.state_dict(),"20181896_model2.pth")
 
 # 모델 불러오기
-test_model = Densenet().to(device)
+test_model = Densenet(depth=28, num_classes=47).to(device)
 test_model.load_state_dict(torch.load("20181896_model2.pth"))
 
 # Testing
