@@ -8,11 +8,13 @@ Dense Block 내에서는 ResNet과 같이 Pre-Activation 구조 (BN-ReLU-Conv)�
 Dense Block
 --------------
 ![캡처2](https://user-images.githubusercontent.com/74402562/103472759-b7622480-4dd4-11eb-98be-20c474a61d5c.PNG)
+![캡처5](https://user-images.githubusercontent.com/74402562/103473127-66ecc600-4dd8-11eb-9173-c7334a8cec4f.PNG)
 
 ResNet은 이전 특징 맵을 합하는 것이라면 DenseNet은 이전 특징 맵에 누적해서 Concatenate하는 결과와 같다.
 
 Bottleneck 구조
 -----------------
+![캡처6](https://user-images.githubusercontent.com/74402562/103473128-69e7b680-4dd8-11eb-8240-df45c096003e.PNG)
 ![캡처3](https://user-images.githubusercontent.com/74402562/103472761-b8935180-4dd4-11eb-8dce-e8cf06c64e43.PNG)
 
 레이어가 깊어지면서 연산량이 급격히 증가하는 것을 막기 위해 1x1 Conv를 이용한 Bottleneck Layer를 사용하였다.
