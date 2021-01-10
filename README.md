@@ -1,4 +1,4 @@
-# DenseNet
+# DenseNet_pytorch
 ![캡처](https://user-images.githubusercontent.com/74402562/103472758-b3360700-4dd4-11eb-9aca-2624c5c32ba1.PNG)
 
 DenseNet은 ResNet 아이디어의 연장선에 있으며 Dense Block을 제안하고 있다.
